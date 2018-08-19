@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    <h1>Create Comment</h1>
+    <form action="/api/comment" method="POST">
+        <input type="text" name="zoneId" placeholder="Zone Id" />
+        <input type="text" name="username" placeholder="User name" />
+        <input type="text" name="body" placeholder="Body" />
+        <input type="submit" value="Create Comment" />
+    </form>
+</body>
+
+</html>
